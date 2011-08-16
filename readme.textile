@@ -1,0 +1,38 @@
+h1. Warning
+
+The utilities in this library are rough and temporary. They may be moved around or deleted without notice.
+
+h2. DocStats
+
+A basic Display Object Container stats tool.
+
+Usage: <code>trace(new DocStats(doc));</code>
+
+Output:
+
+<pre>
+Containers:             1472 total
+Children per container: 10 max, 1.18 avg
+Depths (distance):      34 max, 18.16 avg
+Unique container types: 114 total
+</pre>
+
+h2. Egg
+
+An uber simple process benchmarking tool.
+
+Usage:
+
+<code>Egg.start('contact form', 'time taken for user to complete and submit contact form');</code>
+
+<code>Egg.stop('contact form'');</code>
+
+<code>trace(Egg);</code>
+
+Output:
+
+<pre>
+Egg: contact form (time taken for user to complete and submit contact form): 17061 ms
+</pre>
+
+*Note:* This is not a micro-benchmarking tool.

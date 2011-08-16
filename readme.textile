@@ -25,7 +25,7 @@ Usage:
 
 <code>Egg.start('contact form', 'time taken for user to complete and submit contact form');</code>
 
-<code>Egg.stop('contact form'');</code>
+<code>Egg.stop('contact form');</code>
 
 <code>trace(Egg);</code>
 

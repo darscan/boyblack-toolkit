@@ -28,7 +28,7 @@ package net.boyblack.tools.docstats
 
 		public const filteredStats:Stats = new Stats('Filtered (mx., spark., flash.)');
 
-		public const unfilteredStats:Stats = new Stats('Unfiltered');
+		public const unfilteredStats:Stats = new Stats('Unfiltered (custom)');
 
 		/*============================================================================*/
 		/* Private Properties                                                         */
